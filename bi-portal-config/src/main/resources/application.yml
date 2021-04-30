@@ -1,0 +1,10 @@
+server:
+    port: 8999
+spring:
+    application:
+        name: bi-portal-config
+    profiles:
+        active: @environment@
+mybatis-plus:
+    global-config:
+        banner: false
